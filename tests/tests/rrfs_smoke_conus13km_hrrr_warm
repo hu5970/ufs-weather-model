@@ -40,7 +40,7 @@ export OUTPUT_FILE="'netcdf'"
 export SEDI_SEMI=.false.
 export DECFL=8
 
-export RRFS_SMOKE=.true.
+export RRFS_SD=.true.
 export SEAS_OPT=0
 
 if [[ "$CREATE_BASELINE" == true ]] ; then
@@ -65,7 +65,7 @@ export HYBEDMF=.false.
 export SHAL_CNV=.false.
 export DO_SAT_ADJ=.false.
 export DO_DEEP=.false.
-export CCPP_SUITE='FV3_HRRR_smoke'
+export CCPP_SUITE='FV3_HRRR'
 export INPES=12
 export JNPES=12
 export NPX=397
