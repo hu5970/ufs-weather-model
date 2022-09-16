@@ -876,7 +876,7 @@ export NSSL_CCN_ON=.true.
 export NSSL_INVERTCCN=.true.
 
 # Smoke
-export RRFS_SMOKE=.false.
+export RRFS_SD=.false.
 export SEAS_OPT=2
 
 # The rrfs*conus13km* tests are all warm starts off of data
